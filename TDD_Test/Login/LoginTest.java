@@ -28,7 +28,7 @@ public class LoginTest {
   }
   @BeforeTest
   public void beforeTest() throws InterruptedException {
-	  System.setProperty("webdriver.gecko.driver", "E:\\Gecko\\geckodriver.exe");
+	  System.setProperty("webdriver.gecko.driver", "/usr/local/bin/geckodriver");
 	  driver= new FirefoxDriver();
 	  Thread.sleep(5000);
 	  driver.get("http://localhost:8090/Demo-0.0.1-SNAPSHOT/homepage");
